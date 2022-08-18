@@ -28,15 +28,15 @@ const InsurancePlans = ({ user }) => {
                 </Row>
             </Container> */}
 
-            <div className="section-header">
+<div className="section-header">
 
-                <h5 >
-                    <strong style={{ float: "left", color: "#A020F0", fontSize: 25, paddingLeft: '10rem' }}>Welcome , {user.Username} !</strong>
-                </h5>
-            </div>
+<h5 >
+    <strong style={{ float: "left", color:"#A020F0", fontSize:25, paddingLeft: '10rem' }}>Welcome , {user.Username} !</strong>
+</h5>
+</div>
 
             <section id="pricing" className="pricing">
-
+                
                 <div className="container aos-init aos-animate" data-aos="fade-up">
                     <div className="row gy-4">
                         <div

@@ -16,7 +16,6 @@ const Dashboard = (props) => {
     }, [])
     return (
         props.user.UserToken && <div>
-            {props.user.Username}
             <>
                 <Navbar user={props.user} />
                 <InsurancePlans user={props.user}/>
